@@ -13,3 +13,7 @@
 8) Add Images to your website
 9) Link to External Pages with anchor Elements
 10) Link to internal Section of a page with anchor elements
+
+# Day 2 
+Not as much as day one for sure 
+Mainly just mini projects within python and an uncompleted ASCII project

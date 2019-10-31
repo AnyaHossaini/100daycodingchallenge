@@ -17,3 +17,14 @@
 # Day 2 
 Not as much as day one for sure 
 Mainly just mini projects within python and an uncompleted ASCII project
+
+# Day 3
+I forgot... oops
+
+# Day 4 
+
+1) Make dead links using the hash symbol
+2) Turn an image into a link
+3)Create a bulleted unordered list
+4)Create ordered list
+5)Create a text field

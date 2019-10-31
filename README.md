@@ -28,3 +28,9 @@ I forgot... oops
 3)Create a bulleted unordered list
 4)Create ordered list
 5)Create a text field
+
+# Day 5 
+1)Add Placeholder Text to a Text Field 
+2)Create a form header
+3)Add a Submit Button to a Form
+4)Use HTML5 to Require a Field

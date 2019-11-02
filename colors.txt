@@ -1,0 +1,15 @@
+green
+purple
+blue
+orange
+yellow
+turquoise
+cinnabar
+lapis
+vermillion
+silver
+gold
+bronze
+pink
+black
+white

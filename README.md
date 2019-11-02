@@ -35,3 +35,6 @@ I forgot... oops
 3)Add a Submit Button to a Form
 4)Use HTML5 to Require a Field
 5)Made my own website! part 1
+
+# Day 6 
+I wish I could've done more, I forogot my flashdrive and now I have to go find it... welp

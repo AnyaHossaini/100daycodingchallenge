@@ -38,3 +38,6 @@ I forgot... oops
 
 # Day 6 
 I wish I could've done more, I forogot my flashdrive and now I have to go find it... welp
+
+# DAY 7
+I did input validation and using functions, nothing complicated just a refresher before my exam (:

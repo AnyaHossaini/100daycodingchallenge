@@ -41,3 +41,7 @@ I wish I could've done more, I forogot my flashdrive and now I have to go find i
 
 # DAY 7
 I did input validation and using functions, nothing complicated just a refresher before my exam (:
+
+# Day 8 
+I wanted to do file I/O but like... I ran out of time.. oop
+I did make a basic schedule though so that counts ?!?! I guess

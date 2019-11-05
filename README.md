@@ -45,3 +45,9 @@ I did input validation and using functions, nothing complicated just a refresher
 # Day 8 
 I wanted to do file I/O but like... I ran out of time.. oop
 I did make a basic schedule though so that counts ?!?! I guess
+
+# Day 9 
+I regret doing this while I have school 
+But I did my 1 hour after my comsi exam some how 
+Its a simple game I made up which is just a whole bunch of mini games 
+(: Play it

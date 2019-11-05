@@ -51,3 +51,6 @@ I regret doing this while I have school
 But I did my 1 hour after my comsi exam some how 
 Its a simple game I made up which is just a whole bunch of mini games 
 (: Play it
+
+# Day 10 
+I fixed pieces here and there on the HTML file

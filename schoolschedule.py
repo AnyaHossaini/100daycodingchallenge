@@ -3,7 +3,7 @@ This is going to take input from the user
 and put it into a schedule (:
 IF USER DID NOT DO THAT DATE, PRINT THAT THEY DID NOT COMPLETE THAT DAY
 Put everything in a file, and open that file at the end to shower the user their
-schedule for the whole week, IF the whole week is completed. 
+schedule for the whole week, IF the whole week is completed.
 """
 
 # CONSTANTS
@@ -31,10 +31,17 @@ def day_to_schedule():
     day_to_begin = input("What day would you like to schedule ? ")
 
     # This runs until the user inputs a proper date/ runs if user already finished a date
+
+    count = 0
     while day_to_begin.lower() not in days:
         print("Sorry but I only know 7 days of the week, try again!\n"
               "You might have also already done that day!")
+        count += 1
         day_to_begin = input("What day would you like to start with ? ")
+
+        if count == 3:
+            print("You have tried too many times sorry (:")
+            kicked_out()
 
     # Checks if the day is valid
     if day_to_begin.lower() in days:
@@ -282,13 +289,54 @@ def goodbye():
     """
 
     print("Your tasks for this week are:")  # Print out the tasks
-    print("Monday", monday_schedule)  # Monday
-    print("Tuesday", tuesday_schedule)  # Tuesday
-    print("Wednesday", wednesday_schedule)  # Wednesday
-    print("Thursday", thursday_schedule)  # Thursday
-    print("Friday", friday_schedule)  # Friday
-    print("Saturday", saturday_schedule)  # Saturday
-    print("Sunday", sunday_schedule)  # Sunday
+
+    if not monday_schedule:
+        print("You did not complete Monday's schedule")
+    else:
+        print('Monday:\n', '\n'.join(monday_schedule))  # Monday
+
+    if not tuesday_schedule:
+        print("You did not complete Tuesday's schedule")
+    else:
+        print('Tuesday:\n', '\n'.join(tuesday_schedule))  # Tuesday
+
+    if not wednesday_schedule:
+        print("You did not complete Wednesdays schedule")
+    else:
+        print('Wednesday:\n', '\n'.join(wednesday_schedule))  # Wednesday
+
+    if not thursday_schedule:
+        print("You did not complete Thursday's schedule")
+    else:
+        print('Thursday:\n', '\n'.join(thursday_schedule))  # Thursday
+
+    if not friday_schedule:
+        print("You did not complete Friday's schedule")
+
+    else:
+        print('Friday:\n', '\n'.join(friday_schedule))  # Friday
+
+    if not saturday_schedule:
+        print("You did not complete Saturday's schedule")
+
+    else:
+        print('Saturday:\n', '\n'.join(saturday_schedule))  # Saturday
+
+    if not sunday_schedule:
+        print("You did not complete Sunday's schedule")
+
+    else:
+        print('Sunday:\n', '\n'.join(sunday_schedule))  # Sunday
+
+
+def kicked_out():
+
+    """
+    If the user inputs days TOO many times
+    it will kick them out
+    :return:
+    """
+    print("You can't spell, too bad. Good bye!")
 
 
 if __name__ == '__main__':

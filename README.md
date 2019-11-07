@@ -54,3 +54,6 @@ Its a simple game I made up which is just a whole bunch of mini games
 
 # Day 10 
 I fixed pieces here and there on the HTML file
+
+# Day 11
+I just played with HTML

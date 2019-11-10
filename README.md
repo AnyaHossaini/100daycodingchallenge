@@ -57,3 +57,6 @@ I fixed pieces here and there on the HTML file
 
 # Day 11
 I just played with HTML
+
+# Day 12 
+I made a funny game, so ye.... Hackaton hours are lacking hours

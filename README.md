@@ -60,3 +60,6 @@ I just played with HTML
 
 # Day 12 
 I made a funny game, so ye.... Hackaton hours are lacking hours
+
+# Day 13
+I was just learning today, my head is killing me too much to do much else

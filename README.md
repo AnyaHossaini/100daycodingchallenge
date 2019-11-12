@@ -63,3 +63,6 @@ I made a funny game, so ye.... Hackaton hours are lacking hours
 
 # Day 13
 I was just learning today, my head is killing me too much to do much else
+
+# Day 14
+My head still hurts, basic java that I haven't done in forever
